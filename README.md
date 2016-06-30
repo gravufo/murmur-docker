@@ -15,5 +15,5 @@
 To launch it, just type:
 
 ```
-docker run -d --name mumble-server --restart unless-stopped -p 64738:64738 -p 64738:64738/udp -v [your config folder]:/data gravufo/mumble
+docker run -d --name mumble-server --restart unless-stopped -p 64738:64738 -p 64738:64738/udp -v [your config folder]:/data gravufo/murmur
 ```
